@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+
+
+
+.navbar .navbar-brand {
+    color: chartreuse;
+    margin: 15px;
+    padding: 0;
+    text-align: center;
+}
+
+.carousel-inner .carousel-caption {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* About Us */
+.about {
+    text-align: center;
+
+}
+
+.about h4 {
+    color: rgb(214, 29, 29)
+}
+
+.about h1 {
+    font-weight: 700;
+}
+
+.about button {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.about {
+    /* position: absolute; */
+    /* margin: 10px 10px; */
+    /* padding: 10px 10px; */
+}
+
+
+
+/* Why choose Us */
+.why {
+    display: flex;
+    justify-content: center;
+    margin: 30px 50px;
+    padding: 35px 50px;
+}
+
+.why_left img {
+    height: 550px;
+    width: 550px;
+    border-radius: 10%;
+}
+
+.why_right {
+    margin: 30px 30px;
+    padding: 50px 50px;
+}
+.why_right h3{
+    color:rgb(211, 129, 70);
+}
+.why_right h1 {
+    font-weight: 700;
+}
+
+
+.why_content  li {
+    font-size: 20px;
+    margin: 15px 15px;
+    margin-left: -50px;
+    
+}
+.why_content i {
+    margin: 10px 10px;
+}
+
+/* *Number */
+.number {
+    background: green;
+    text-align: center;
+    padding: 60px;
+}
+.number_content {
+    display:flex;
+    width:70%;
+    margin: auto;
+    justify-content: space-between;
+}
+/* .number_items .number_count {
+    font-size: 60px;
+    color:grey;
+} */
+
+.number_items p:first-child {
+    font-size: 60px;
+    color: white;
+}
+.number_items P:last-child {
+    font-size: 30px;
+    color:rgb(68, 65, 65);
+}   
+
+/* Our Plans */
+.our {
+    text-align: center;
+}
+.our h4 {
+    color:rgb(234, 53, 53);
+    font-size: 30px;
+    font-weight: 500;
+}
+.our h1 {
+    font-weight: 700;
+}
+.our_card {
+    display: flex;
+    /* width: 100%; */
+    /* margin: 15px 15px; */
+    /* padding: 10px 10px; */
+    /* text-align: center; */
+}
+.card-body a {
+    background:green;
+}
