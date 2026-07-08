@@ -16,7 +16,11 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css"
         integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 
 
 
@@ -33,7 +37,7 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-<!-- !hàng đầu này anh chưa biết cách sửa sao đề giống bài mẫu
+                <!-- !hàng đầu này anh chưa biết cách sửa sao đề giống bài mẫu
  với chữ trong khung hình thì anh cũng không biết di chuyển -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -137,7 +141,8 @@
     <!-- *Card -->
     <section class="list">
         <div class="row">
-            <!-- các icon trong card cũng không hiển thị -->
+            <!-- !các icon trong card cũng không hiển thị
+             các ô card cách hơi xa -->
             <div class="col-md-4 col-sm-6 col-12">
                 <div class="card" style="width: 18rem;">
                     <i class="fa fa-snowflake-o"></i>
@@ -269,12 +274,12 @@
     <section class="our">
         <h4>Our Plans</h4>
         <h1>Affordable Packages</h1>
-<!-- chưa xếp được như bài mẫu -->
+        <!-- chưa xếp được như bài mẫu -->
         <div class="our_card">
             <div class="card" style="width: 18rem;">
                 <div class="card-body">
                     <h5 class="card-title">Free Package</h5>
-                    <p class="card-text">$0/month</p>
+                    <P class="card-text"><span>$0</span>/month</P>
                     <p>5 Dog Walk</p>
                     <p>3 Vet Visit</p>
                     <p>3 Pet Spa</p>
@@ -286,9 +291,11 @@
 
             <div class="card" style="width: 18rem;">
                 <div class="card-body">
-                    <div class="save">SAVE 10%</div>
-                    <h5 class="card-title">Standard Package</h5>
-                    <p class="card-text">$39/month</p>
+                    <div class="save_header">
+                        <div class="save">SAVE 10%</div>
+                        <h5 class="card-title">Standard Package</h5>
+                        <P class="card-text1"><span>$39</span>/month</P>
+                    </div>
                     <p>5 Dog Walk</p>
                     <p>3 Vet Visit</p>
                     <p>3 Pet Spa</p>
@@ -301,7 +308,7 @@
             <div class="card" style="width: 18rem;">
                 <div class="card-body">
                     <h5 class="card-title">Pro Package</h5>
-                    <p class="card-text">$89/month</p>
+                    <P class="card-text"><span>$89</span>/month</P>
                     <p>5 Dog Walk</p>
                     <p>3 Vet Visit</p>
                     <p>3 Pet Spa</p>
@@ -311,7 +318,106 @@
                 </div>
             </div>
         </div>
+    </section>
 
+
+    <!-- Better Pet Nutrition -->
+    <section class="better">
+        <div class="better_content">
+            <h4>BETTER PET NUTRITION</h4>
+            <h1> The Finest Fresh Food And All Your Pet Needs.</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet elit consec tetur
+                adipisi elit.<br> Lorem ipsum dolor sit amet elit consec tetur adipisi elit. Iure voluptatibus explicabo
+                officia.</p>
+        </div>
+        <div class="better_videos">
+            <img src="./img/images (1).jpg">
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testi">
+        <div class="testi_content">
+            <h4>TESTIMONIALS</h4>
+            <h1>Happy Clients & Feedbacks</h1>
+        </div>
+        <div class="card_list">
+            <div class="card" style="width: 18rem;">
+                <!-- <div class="owl-carousel owl-theme"> -->
+                <div class="card_body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae
+                        laudantium
+                        voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.Dolores molestias
+                        adipisci dolor sit amet!.</p>
+                    <div class="card_items">
+                        <img src="./img/avatar-hai.jpg">
+                        <div class="card_content">
+                            <h6>John wilson</h6>
+                            <p>Example City</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <!-- <div class="owl-carousel owl-theme"> -->
+                <div class="card_body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae
+                        laudantium
+                        voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.Dolores molestias
+                        adipisci dolor sit amet!.</p>
+                    <div class="card_items">
+                        <img src="./img/avatar-hai.jpg">
+                        <div class="card_content">
+                            <h6>Julia sakura</h6>
+                            <p>Example City</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <!-- <div class="owl-carousel owl-theme"> -->
+                <div class="card_body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae
+                        laudantium
+                        voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.Dolores molestias
+                        adipisci dolor sit amet!.</p>
+                    <div class="card_items">
+                        <img src="./img/avatar-hai.jpg">
+                        <div class="card_content">
+                            <h6>Roy Linderson</h6>
+                            <p>Example City</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <!-- <div class="owl-carousel owl-theme"> -->
+                <div class="card_body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae
+                        laudantium
+                        voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.Dolores molestias
+                        adipisci dolor sit amet!.</p>
+                    <div class="card_items">
+                        <img src="./img/avatar-hai.jpg">
+                        <div class="card_content">
+                            <h6>Mike Thyson</h6>
+                            <p>Example City</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
     </section>
 
 
@@ -325,8 +431,9 @@
 
 
 
-
-
+    <script src="./js/pooch.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.min.js"
         integrity="sha512-nKXmKvJyiGQy343jatQlzDprflyB5c+tKCzGP3Uq67v+lmzfnZUi/ZT+fc6ITZfSC5HhaBKUIvr/nTLCV+7F+Q=="

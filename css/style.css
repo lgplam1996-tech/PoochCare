@@ -2,17 +2,20 @@
     margin: 0;
     padding: 0;
 }
-li{
+
+li {
     list-style-type: none;
 }
 
 
 
 .navbar .navbar-brand {
-    color: chartreuse;
+    color: rgb(12, 165, 27);
     margin: 15px;
-    padding: 0;
+    padding: 0; 
     text-align: center;
+    font-weight: 700;
+    font-size: 30px;
 }
 
 .carousel-inner .carousel-caption {
@@ -51,10 +54,29 @@ li{
 
 
 .about {
-    /* position: absolute; */
-    /* margin: 10px 10px; */
-    /* padding: 10px 10px; */
+    margin: 20px 20px;
+    padding: 30px 30px;
 }
+
+/* List card */
+.row {
+    margin: 0 auto;
+    width: 100%;
+    background: rgba(183, 182, 182, 0.779);
+    padding: 85px 80px;
+    
+}
+
+.row .card {
+    margin: 20px 20px;
+
+}
+.card-body {
+    padding: 15px 15px;
+    margin: 10px 10px;
+}
+
+
 
 
 
@@ -76,20 +98,23 @@ li{
     margin: 30px 30px;
     padding: 50px 50px;
 }
-.why_right h3{
-    color:rgb(211, 129, 70);
+
+.why_right h3 {
+    color: rgb(211, 129, 70);
 }
+
 .why_right h1 {
     font-weight: 700;
 }
 
 
-.why_content  li {
+.why_content li {
     font-size: 20px;
     margin: 15px 15px;
     margin-left: -50px;
-    
+
 }
+
 .why_content i {
     margin: 10px 10px;
 }
@@ -100,12 +125,14 @@ li{
     text-align: center;
     padding: 60px;
 }
+
 .number_content {
-    display:flex;
-    width:70%;
+    display: flex;
+    width: 70%;
     margin: auto;
     justify-content: space-between;
 }
+
 /* .number_items .number_count {
     font-size: 60px;
     color:grey;
@@ -115,30 +142,107 @@ li{
     font-size: 60px;
     color: white;
 }
+
 .number_items P:last-child {
     font-size: 30px;
-    color:rgb(68, 65, 65);
-}   
+    color: rgb(68, 65, 65);
+}
 
 /* Our Plans */
 .our {
     text-align: center;
+    background: rgb(190, 190, 190);
 }
+
 .our h4 {
-    color:rgb(234, 53, 53);
+    color: rgb(234, 53, 53);
     font-size: 30px;
     font-weight: 500;
+
 }
+
 .our h1 {
     font-weight: 700;
 }
+
 .our_card {
     display: flex;
-    /* width: 100%; */
-    /* margin: 15px 15px; */
-    /* padding: 10px 10px; */
-    /* text-align: center; */
+    margin: auto;
+    width: 50%;
 }
+
 .card-body a {
-    background:green;
+    background: green;
+}
+
+.save_header {
+    background: green;
+    /* background-size:unset; */
+    color: white;
+    margin: 0 auto;
+    padding: 10px 10px;
+    line-height: 50px;
+}
+
+.save_header .save {
+    background: white;
+    color: green;
+    font-weight: 700;
+    width: 60%;
+    /* height: 30%; */
+    margin: auto;
+    border-radius: 20px;
+}
+
+.card-text span {
+    color: green;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.card-text1 span {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+/* khúc này ô giữa anh chưa làm được nó full khuôn màu */
+
+
+
+/* Better Pet Nutrition */
+.better_content {
+    text-align: center;
+}
+
+.better_videos {
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+/* Testimonials */
+.testi {
+    background:rgb(206, 201, 201);
+}
+.testi_content {
+    text-align: center;
+}
+.testi_content h4 {
+    color:rgb(240, 41, 41);
+}
+.testi_content h1 {
+    font-weight: 700;
+}
+.card_body img {
+    width: 60px;
+    border-radius: 20px;
+}
+.card_list {
+    display:flex;
+    margin: auto;
+    width: 100%;
+    /* padding: 55px 30px; */
+}
+.card_body .card_items {
+    display: flex;
 }
