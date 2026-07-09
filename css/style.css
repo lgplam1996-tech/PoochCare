@@ -12,7 +12,7 @@ li {
 .navbar .navbar-brand {
     color: rgb(12, 165, 27);
     margin: 15px;
-    padding: 0; 
+    padding: 0;
     text-align: center;
     font-weight: 700;
     font-size: 30px;
@@ -64,13 +64,14 @@ li {
     width: 100%;
     background: rgba(183, 182, 182, 0.779);
     padding: 85px 80px;
-    
+
 }
 
 .row .card {
     margin: 20px 20px;
 
 }
+
 .card-body {
     padding: 15px 15px;
     margin: 10px 10px;
@@ -222,27 +223,144 @@ li {
 
 /* Testimonials */
 .testi {
-    background:rgb(206, 201, 201);
+    background: rgb(206, 201, 201);
 }
+
 .testi_content {
     text-align: center;
 }
+
 .testi_content h4 {
-    color:rgb(240, 41, 41);
+    color: rgb(240, 41, 41);
 }
+
 .testi_content h1 {
     font-weight: 700;
 }
+
 .card_body img {
     width: 60px;
     border-radius: 20px;
 }
+
 .card_list {
-    display:flex;
+    display: flex;
     margin: auto;
     width: 100%;
     /* padding: 55px 30px; */
 }
+
 .card_body .card_items {
     display: flex;
 }
+
+
+
+/* Stay Updated! */
+.stay_container {
+    padding: 30px 60px;
+    height: 30%;
+    /* background: #000; */
+}
+
+.stay_content {
+    text-align: center;
+}
+
+.stay_content h1 {
+    font-weight: 700;
+}
+
+.stay_input {
+    text-align: center;
+}
+
+.stay_input input {
+    width: 30%;
+    height: 50px;
+    border-radius: 10px;
+    background: rgb(151, 148, 148);
+}
+
+.stay_input button {
+    width: 12%;
+    margin: 10px 10px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    background: rgb(12, 165, 27);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer_icons ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    /* khoảng cách giữa các icon */
+    list-style: none;
+    /* bỏ dấu chấm đầu dòng nếu có */
+    padding: 0;
+    margin: 0;
+}
+
+.footer_end {
+    background: #252525;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+
+
+}
+
+.footer_end h6 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.footer_body {
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    color: white;
+    padding: 10px 10px;
+}
+
+
+.footer_footer {
+    color: white;
+    margin-top: auto;
+    text-align: center;
+
+}
+
+.footer_list li {
+    padding: 10px 0;
+}
+
+.footer_items {
+    width: 25%;
+    margin-left: -15px;
+    padding-left: 85px;
+}
+

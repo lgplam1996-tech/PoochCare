@@ -1,0 +1,37 @@
+.img_header {
+    background-image: url(../img/MV5BODMzZGY5NjMtZjBmYi00YTQ3LTlmZjUtYTNjNzNhZjkzYWY1XkEyXkFqcGc@._V1_.jpg);
+    /* hình này anh muốn lấy khúc đầu của hình ảnh */
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    
+}
+.img_header .container {
+    text-align: center;
+    color:white;
+}
+.ing_header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #696767;
+}
+
+.img_right img {
+    border-radius: 20px;
+    /* right:unset; */
+    
+}
+
+.image {
+    display:flex;
+    justify-content: flex-end;
+    margin: 30px;
+    padding: 60px 80px;
+    gap: 40px;
+}
