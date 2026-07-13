@@ -1,20 +1,66 @@
-.img_header {
-    background-image: url(../img/MV5BODMzZGY5NjMtZjBmYi00YTQ3LTlmZjUtYTNjNzNhZjkzYWY1XkEyXkFqcGc@._V1_.jpg);
-    /* hình này anh muốn lấy khúc đầu của hình ảnh */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul {
+    text-decoration: none;
+
+}
+
+
+
+.navbar .navbar-brand {
+    color: rgb(12, 165, 27);
+    margin: 15px;
+    padding: 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.services_contrainer h1 {
+    color: white;
+    font-weight: 700;
+}
+
+.services_items {
+    display: flex;
+}
+
+.services_items p {
+    color: white;
+}
+
+.services_contrainer a {
+    color: green;
+}
+
+.services_img {
+    background-image: url(../img/banner4.jpg);
     background-size: cover;
     background-position: center;
+    /* background-color:#252525; */
     height: 280px;
     width: 100%;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    position:relative;
+    position: relative;
     
 }
+
+
 .img_header .container {
     text-align: center;
-    color:white;
+    color: white;
 }
+
 .ing_header::before {
     content: "";
     position: absolute;
@@ -22,16 +68,111 @@
     background: #696767;
 }
 
-.img_right img {
-    border-radius: 20px;
-    /* right:unset; */
-    
-}
-
-.image {
-    display:flex;
-    justify-content: flex-end;
+/* section - image */
+.services {
+    /* display:flex; */
+    /* justify-content: flex-end; */
     margin: 30px;
     padding: 60px 80px;
+}
+
+
+
+.image {
+    display: flex;
     gap: 40px;
+    margin: auto;
+    width: 70%;
+    padding: 15px;
+}
+
+.img_left img {
+    border-radius: 20px;
+    /* right:unset; */
+    height: 280px;
+    width: 100%;
+}
+
+.img_right img {
+    border-radius: 20px;
+    height: 280px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================Footer========================= */
+.footer_icons ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    /* khoảng cách giữa các icon */
+    list-style: none;
+    /* bỏ dấu chấm đầu dòng nếu có */
+    padding: 0;
+    margin: 0;
+}
+
+.footer_end {
+    background: #252525;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+
+
+}
+
+.footer_end h6 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.footer_body {
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    color: white;
+    padding: 10px 10px;
+}
+
+
+.footer_footer {
+    color: white;
+    margin-top: auto;
+    text-align: center;
+
+}
+
+.footer_list li {
+    padding: 10px 0;
+}
+
+.footer_items {
+    width: 25%;
+    margin-left: -15px;
+    padding-left: 85px;
+}
+
+.footer_list li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.footer_list li a:hover {
+    text-decoration: underline;
+    color: white;
 }

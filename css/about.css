@@ -1,0 +1,58 @@
+
+.container{
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* about_contaner */
+.About_text-center {
+    margin-top: 90px;
+    background-size: cover;
+    z-index: 0;
+    display: grid;
+    align-items: center;
+    padding: 1em 0;
+    
+}
+
+.Our__container img{
+     height: 550px;      /* Giảm chiều cao */
+    object-fit: cover;  /* Giữ ảnh không bị méo */
+    display: block;
+}
+
+.row__title{
+    position: absolute;
+    top: 50%;
+    right: 70px;          /* Cách mép phải 80px */
+    width: 45%;           /* Chiếm khoảng 45% chiều ngang */
+   
+}
+
+  
+.team-row{
+   display: flex;
+   justify-content: space-between;
+    gap: 25px;
+    
+}
+
+
+.team-ifno{
+    text-align: center;
+    flex: 1;
+}
+
+.team-ifno img{
+   width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition:  0.3s linear;
+}
+
+.team-ifno img:hover{
+   transform: scale(1.1) translateY(-3px);
+}

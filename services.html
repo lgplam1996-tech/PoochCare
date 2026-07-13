@@ -25,31 +25,193 @@
 
 <body>
     <header>
-        <nav>
-            <div class="img_header">
-                <div class="container py-2">
-                    <h2 class="title ServicesPageBanner">Services</h2>
-                    <ul><a href="./index.html">Home</a>
-                        <i class="fa-solid fa-angles-right"></i> Services page
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Poock Care</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- !hàng đầu này anh chưa biết cách sửa sao đề giống bài mẫu
+ với chữ trong khung hình thì anh cũng không biết di chuyển -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Blog Pots</a></li>
+                                <li><a class="dropdown-item" href="#">Landing page</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <!-- <li><a class="dropdown-item" href="#"></a></li> -->
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Contact</a>
+                        </li>
                     </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button>Search</button>
+                    </form>
                 </div>
             </div>
         </nav>
     </header>
-    <section class="image">
-        <div class="img_right">
-            <img src="./img/cute-puppy-pomeranian-mixed-breed-pekingese-dog-run-on-the-grass-with-happiness-photo.jpg">
+    <section class="services_img">
+        <div class="services_contrainer">
+            <h1>Services</h1>
+            <ul class="services_items">
+                <a href="./index.html">Home</a>
+                <p><i class="fa-solid fa-angles-right"></i> Services Page</p>
+            </ul>
         </div>
-        <div class="content_left">
-            <span>01</span>
-            <h2>Dog Walking</h2>
-            <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere<br> aperiam sequi optio consectetur adipisicing
-                elit.
-                Fuga, suscipit<br> totam animi consequatur saepe blanditiis.</p>
-            <button type="button" class="btn btn-link">Read More</button>
+
+    </section>
+    <section class="services">
+        <div class="image">
+            <div class="img_left">
+                <img src="./img/g1.jpg">
+            </div>
+            <div class="content_right">
+                <span>01</span>
+                <h2>Dog Walking</h2>
+                <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere<br> aperiam sequi optio consectetur
+                    adipisicing
+                    elit.
+                    Fuga, suscipit<br> totam animi consequatur saepe blanditiis.</p>
+                <button type="button" class="btn btn-link">Read More</button>
+            </div>
+        </div>
+
+        <div class="image">
+            <div class="content_left">
+                <span>02</span>
+                <h2>Dog Training</h2>
+                <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere<br> aperiam sequi optio consectetur
+                    adipisicing
+                    elit.
+                    Fuga, suscipit<br> totam animi consequatur saepe blanditiis.</p>
+                <button type="button" class="btn btn-link">Read More</button>
+            </div>
+            <div class="img_right">
+                <img src="./img/g2.jpg">
+            </div>
+        </div>
+
+        <div class="image">
+            <div class="img_left">
+                <img src="./img/g3.jpg">
+            </div>
+            <div class="content_right">
+                <span>01</span>
+                <h2>Dog Boarding</h2>
+                <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere<br> aperiam sequi optio consectetur
+                    adipisicing
+                    elit.
+                    Fuga, suscipit<br> totam animi consequatur saepe blanditiis.</p>
+                <button type="button" class="btn btn-link">Read More</button>
+            </div>
+        </div>
+
+        <div class="image">
+            <div class="content_left">
+                <span>01</span>
+                <h2>Dog Transportation</h2>
+                <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere<br> aperiam sequi optio consectetur
+                    adipisicing
+                    elit.
+                    Fuga, suscipit<br> totam animi consequatur saepe blanditiis.</p>
+                <button type="button" class="btn btn-link">Read More</button>
+            </div>
+            <div class="img_right">
+                <img src="./img/banner4.jpg">
+            </div>
         </div>
     </section>
 
+
+
+    <!-- Footer -->
+    <footer class="footer_end">
+        <div class="footer_body">
+            <div class="footer_items1">
+                <h6>Contact information</h6>
+                <ul class="footer_list">
+                    <li>Address : #135 block, Barnard St. Brooklyn, London 10036, UK</li>
+                    <li>Phone :<a href=""> +(12)234-11-24</a></li>
+                    <li>Email : <a href="">exampleAmail.com</a></li>
+                </ul>
+                <div class="footer_icons">
+                    <ul>
+                        <li class="facebook">
+                            <a href="https://www.facebook.com/w3layouts/" title="Facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li> <a href="https://x.com/W3layouts" title="kiwi">
+                                <i class="fa-solid fa-kiwi-bird"></i>
+                            </a></li>
+                        <li> <a href="https://dribbble.com/w3layouts" title="bom">
+                                <i class="fa-solid fa-bomb"></i>
+                            </a></li>
+                        <li> <a href="https://www.google.com/?zx=1783585302458" title="google">
+                                <i class="fa-solid fa-g"></i>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <div class="footer_right"> -->
+            <div class="footer_items">
+                <h6>Archives</h6>
+                <ul class="footer_list">
+                    <li><a href="https://wp.w3layouts.com/poochcare/2020/12/">December 2020</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_items">
+                <h6>Categories</h6>
+                <ul class="footer_list">
+                    <li><a href="https://wp.w3layouts.com/poochcare/category/animals/">Animals</a></li>
+                    <li><a href="https://wp.w3layouts.com/poochcare/category/pets/">Pets</li>
+                    <li><a href="https://wp.w3layouts.com/poochcare/category/pets-care/">Pets care</a></li>
+                    <li><a href="https://wp.w3layouts.com/poochcare/category/uncategorized/">Uncategorized</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_items">
+                <h6>Meta</h6>
+                <ul class="footer_list">
+                    <li><a href="https://wp.w3layouts.com/poochcare/wp-login.php">Log in</a></li>
+                    <li><a href="https://wp.w3layouts.com/poochcare/feed/">Entries feed</li>
+                    <li><a href="https://wp.w3layouts.com/poochcare/comments/feed/">Comments feed</a></li>
+                    <li><a href="https://wordpress.org/">WordPress.org</a></li>
+                </ul>
+            </div>
+            <!-- </div> -->
+        </div>
+
+        <div class="footer_footer">
+            <span>© 2026 All Rights Reserved by <a href="https://w3layouts.com/">W3Layouts</a></span>
+        </div>
+    </footer>
 
 
 
