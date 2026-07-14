@@ -1,9 +1,59 @@
+/* code chung */
+*{
+ margin: 0;
+ padding: 0;
+}
 
-.container{
+head,body{
+     
+    font-family: "jont" sans-serif ;
+}
+li {
+    list-style-type: none;
+    text-decoration: none;
+}
+ul {
+    text-decoration: none;
+}
+
+header a {
+    transition:all 0.5s;
+}
+button {
+    color:black;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color:green;
+}
+
+.navbar .navbar-brand {
+    color: rgb(12, 165, 27);
+    margin: 15px;
+    padding: 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+
+/* code chung */
+*{
+ margin: 0;
+ padding: 0;
+}
+
+head,body{
+     
+    font-family: "jont" sans-serif ;
+}
+
+
+/* .container{
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
-}
+} */
 
 
 /* about_contaner */
@@ -14,6 +64,7 @@
     display: grid;
     align-items: center;
     padding: 1em 0;
+    /* height: 10px; */
     
 }
 
@@ -55,4 +106,107 @@
 
 .team-ifno img:hover{
    transform: scale(1.1) translateY(-3px);
+}
+
+/* WLY_about_us */
+
+.WLY_container{
+  display: flex;            /* Kích hoạt flexbox để chia 2 bên */
+  justify-content: space-between; /* Đẩy 2 khối về 2 phía đầu/cuối */
+  align-items: flex-start;  /* Căn lề các khối bắt đầu từ phía trên */
+  
+  max-width: 1200px;        /* Giới hạn chiều rộng tối đa của toàn bộ khung */
+  margin: 0 auto;           /* QUAN TRỌNG: Căn giữa toàn bộ khung này ra giữa màn hình */
+  padding: 40px 20px;       /* Tạo khoảng cách đệm trên dưới và 2 bên */
+  gap: 50px;                /* Tạo khoảng cách trống giữa khối trái và khối phải */
+  
+
+}
+
+/* Định dạng khối bên trái chiếm khoảng 40% chiều rộng */
+.about-left {
+  flex: 40%;
+
+}
+
+/* Định dạng khối bên phải chiếm khoảng 55% chiều rộng */
+.about-right {
+  flex: 55%;
+}
+
+.WCS_icon li{
+    list-style: none;
+  margin-bottom: 30px; /* Khoảng cách giữa các mục */
+}
+
+
+
+
+
+
+/* ===================Footer========================= */
+.footer_icons ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    /* khoảng cách giữa các icon */
+    list-style: none;
+    /* bỏ dấu chấm đầu dòng nếu có */
+    padding: 0;
+    margin: 0;
+}
+
+.footer_end {
+    background: #252525;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+
+
+}
+
+.footer_end h6 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.footer_body {
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    color: white;
+    padding: 10px 10px;
+}
+
+
+.footer_footer {
+    color: white;
+    margin-top: auto;
+    text-align: center;
+
+}
+
+.footer_list li {
+    padding: 10px 0;
+}
+
+.footer_items {
+    width: 25%;
+    margin-left: -15px;
+    padding-left: 85px;
+}
+
+.footer_list li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.footer_list li a:hover {
+    text-decoration: underline;
+    color: white;
 }

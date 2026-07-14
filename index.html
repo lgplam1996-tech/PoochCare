@@ -11,11 +11,13 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+    <!-- 
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css"
         integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 
 
     <link rel="stylesheet" href="./css/style.css">
@@ -51,7 +53,7 @@
                             <a class="nav-link" href="./services.html">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Gallery</a>
+                            <a class="nav-link" href="./gallery.html">Gallery</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -92,8 +94,7 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./img/banner1.jpg" class="d-block w-100"
-                        alt="...">
+                    <img src="./img/banner1.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h2>Quality Things For<br>Loving Pets</h2>
                         <p>Keeps Your Pet Smiling</p>
@@ -139,133 +140,93 @@
     </section>
 
     <!-- *Card -->
-    <section class="list">
-        <div class="row">
-            <!-- !các icon trong card cũng không hiển thị
-             các ô card cách hơi xa -->
-            <div class="col-md-4 col-sm-6 col-12">
-                <div class="card" style="width: 18rem;">
-                    <i class="fa fa-snowflake-o"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">Dog Walking</h5>
-                        <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet.
-                            Lorem
-                            ipsum dolor sit amet Ut blandit eu leo.</p>
-                        <a href="#" class="btn btn-primary">Read More</a>
+    <section class="list background-card py-5 ">
+        <div class="container pt-lg-5 pt-md-4 ">
+            <div class="row ">
+                <div class="col-md-4 mb-4 ">
+                    <div class="card ">
+                        <div class="card-body">
+                            <div class="icon">
+                                <i class="fa-solid fa-snowflake"></i>
+                            </div>
+                            <h5 class="card-title">Dog Walking</h5>
+                            <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet
+                                laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo. </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 col-12">
-                <div class="card" style="width: 18rem;">
-                    <i class="fa fa-snowflake-o"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">Healthy Meals</h5>
-                        <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet.
-                            Lorem
-                            ipsum dolor sit amet Ut blandit eu leo.</p>
-                        <a href="#" class="btn btn-primary">Read More</a>
+                <div class="col-md-4 mb-4 ">
+                    <div class="card ">
+                        <div class="card-body">
+                            <div class="icon">
+                                <i class="fa-solid fa-hand-peace"></i>
+                            </div>
+                            <h5 class="card-title">Healthy Meals</h5>
+                            <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet
+                                laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 col-12">
-                <div class="card" style="width: 18rem;">
-                    <i class="fa fa-snowflake-o"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">Pet Sitting</h5>
-                        <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet.
-                            Lorem
-                            ipsum dolor sit amet Ut blandit eu leo.</p>
-                        <a href="#" class="btn btn-primary">Read More</a>
+                <div class="col-md-4 mb-4 ">
+                    <div class="card ">
+                        <div class="card-body">
+                            <div class="icon">
+                                <i class="fa-solid fa-hand-fist"></i>
+                            </div>
+                            <h5 class="card-title">Pet Sitting</h5>
+                            <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet
+                                laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- * Hàng 2 -->
-            <div class="col-md-4 col-sm-6 col-12">
-                <div class="card" style="width: 18rem;">
-                    <i class="fa fa-snowflake-o"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">Dog Activities</h5>
-                        <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet.
-                            Lorem
-                            ipsum dolor sit amet Ut blandit eu leo.</p>
-                        <a href="#" class="btn btn-primary">Read More</a>
+                <!-- =================Hàng 2================================= -->
+                <div class="col-md-4 mb-4 ">
+                    <div class="card ">
+                        <div class="card-body">
+                            <div class="icon">
+                                <i class="fa-solid fa-bezier-curve"></i>
+                            </div>
+                            <h5 class="card-title">Dog Activities</h5>
+                            <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet
+                                laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4 col-sm-6 col-12">
-                <div class="card" style="width: 18rem;">
-                    <i class="fa fa-snowflake-o"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">Pet Daycare</h5>
-                        <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet.
-                            Lorem
-                            ipsum dolor sit amet Ut blandit eu leo.</p>
-                        <a href="#" class="btn btn-primary">Read More</a>
+                <div class="col-md-4 mb-4 ">
+                    <div class="card ">
+                        <div class="card-body">
+                            <div class="icon">
+                                <i class="fa-solid fa-hand-spock"></i>
+                            </div>
+                            <h5 class="card-title">Pet Daycare</h5>
+                            <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet
+                                laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4 col-sm-6 col-12">
-                <div class="card" style="width: 18rem;">
-                    <i class="fa fa-snowflake-o"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">Pet Grooming</h5>
-                        <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet.
-                            Lorem
-                            ipsum dolor sit amet Ut blandit eu leo.</p>
-                        <a href="#" class="btn btn-primary">Read More</a>
+                <div class="col-md-4 mb-4 ">
+                    <div class="card ">
+                        <div class="card-body">
+                            <div class="icon">
+                                <i class="fa-solid fa-hand-scissors"></i>
+                            </div>
+                            <h5 class="card-title">Pet Grooming</h5>
+                            <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet
+                                laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- * Why Choose Us -->
-    <section class="why">
-        <div class="why_left">
-            <img src="./img/ab.jpg" class="img-thumbnail" alt="...">
-        </div>
-        <div class="why_right">
-            <h3>WHY CHOOSE US</h3>
-            <h1>What We Offer For You</h1>
-            <div class="why_content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor<br> incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis<br> nostrud.Lorem ipsum dolor sit amet,
-                    consectetur adipisicingelit.</p>
-                <ul>
-                    <li><i class="fa-solid fa-dog"></i>Certified Groomer</li>
-                    <li><i class="fa-solid fa-dog"></i>10 Year of Experience</li>
-                    <li><i class="fa-solid fa-dog"></i>Pet Lover</li>
-                    <li><i class="fa-solid fa-dog"></i>Customer Supports</li>
-                    <li><i class="fa-solid fa-dog"></i>Veterinary Help</li>
-                </ul>
-            </div>
-        </div>
-    </section>
 
-    <!-- *Number -->
-    <section class="number">
-        <!-- chưa biết cách hiệu ứng các con số chạy -->
-        <div class="number_content">
-            <div class="number_items">
-                <p class="number_count">730</p>
-                <p>Happy Clients</p>
-            </div>
-            <div class="number_items">
-                <p class="number_count">80</p>
-                <p>Professionals</p>
-            </div>
-            <div class="number_items">
-                <p class="number_count">812</p>
-                <p>Adopted Pets</p>
-            </div>
-            <div class="number_items">
-                <p class="number_count">90</p>
-                <p>Awards</p>
             </div>
         </div>
     </section>
@@ -466,32 +427,32 @@
                 </div>
             </div>
             <!-- <div class="footer_right"> -->
-                <div class="footer_items">
-                    <h6>Archives</h6>
-                    <ul class="footer_list">
-                        <li><a href="https://wp.w3layouts.com/poochcare/2020/12/">December 2020</a></li>
-                    </ul>
-                </div>
+            <div class="footer_items">
+                <h6>Archives</h6>
+                <ul class="footer_list">
+                    <li><a href="https://wp.w3layouts.com/poochcare/2020/12/">December 2020</a></li>
+                </ul>
+            </div>
 
-                <div class="footer_items">
-                    <h6>Categories</h6>
-                    <ul class="footer_list">
-                        <li><a href="https://wp.w3layouts.com/poochcare/category/animals/">Animals</a></li>
-                        <li><a href="https://wp.w3layouts.com/poochcare/category/pets/">Pets</li>
-                        <li><a href="https://wp.w3layouts.com/poochcare/category/pets-care/">Pets care</a></li>
-                        <li><a href="https://wp.w3layouts.com/poochcare/category/uncategorized/">Uncategorized</a></li>
-                    </ul>
-                </div>
+            <div class="footer_items">
+                <h6>Categories</h6>
+                <ul class="footer_list">
+                    <li><a href="https://wp.w3layouts.com/poochcare/category/animals/">Animals</a></li>
+                    <li><a href="https://wp.w3layouts.com/poochcare/category/pets/">Pets</li>
+                    <li><a href="https://wp.w3layouts.com/poochcare/category/pets-care/">Pets care</a></li>
+                    <li><a href="https://wp.w3layouts.com/poochcare/category/uncategorized/">Uncategorized</a></li>
+                </ul>
+            </div>
 
-                <div class="footer_items">
-                    <h6>Meta</h6>
-                    <ul class="footer_list">
-                        <li><a href="https://wp.w3layouts.com/poochcare/wp-login.php">Log in</a></li>
-                        <li><a href="https://wp.w3layouts.com/poochcare/feed/">Entries feed</li>
-                        <li><a href="https://wp.w3layouts.com/poochcare/comments/feed/">Comments feed</a></li>
-                        <li><a href="https://wordpress.org/">WordPress.org</a></li>
-                    </ul>
-                </div>
+            <div class="footer_items">
+                <h6>Meta</h6>
+                <ul class="footer_list">
+                    <li><a href="https://wp.w3layouts.com/poochcare/wp-login.php">Log in</a></li>
+                    <li><a href="https://wp.w3layouts.com/poochcare/feed/">Entries feed</li>
+                    <li><a href="https://wp.w3layouts.com/poochcare/comments/feed/">Comments feed</a></li>
+                    <li><a href="https://wordpress.org/">WordPress.org</a></li>
+                </ul>
+            </div>
             <!-- </div> -->
         </div>
 
